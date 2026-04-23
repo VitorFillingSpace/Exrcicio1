@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício CSS</title>
+
+    <style>
+        /* CSS INTERNO */
+        #nav{
+            text-align: right;
+        }
+        h1{
+            text-align: center;
+            background-color: lightblue;
+            font-size: 80px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #subtitulo{
+            background-color: bisque;
+            text-align: center;
+        }
+        #paragrafolorem{
+            background-color: rgb(255, 247, 238);
+            font-size: 25px;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <a href="./index.html">Pagina Inicial</a>
+            <a href="./contato.html">Contato</a>
+
+        </nav>
+    </header>
+    <main>
+
+
+        <h1>Meu primeiro CSS</h1>
+        <section>
+            <h2>CSS Inline</h2>
+            <p style="font-size: 25px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae repellendus voluptatem, expedita optio
+                perspiciatis quis corporis qui, omnis porro, ea necessitatibus numquam sint quia ullam laborum
+                perferendis provident distinctio odio.</p>
+        </section>
+        <section>
+            <h3>CSS Interno</h3>
+            <h2 id="subtitulo">Subtitulo</h2>
+            <p id="paragrafolorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo placeat adipisci quae cumque autem commodi
+                tempora porro nesciunt, fugiat, itaque odio quibusdam exercitationem eveniet non repudiandae corrupti
+                voluptates similique aspernatur.</p>
+        </section>
+        <section>
+            <h4 class="externo">CSS Externo</h4>
+            <p class="externo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint, esse perferendis laudantium eos
+                consequatur, suscipit et modi explicabo iste voluptatum, quos accusamus accusantium repellat cupiditate
+                blanditiis beatae officiis architecto quaerat.</p>
+            <p class="externo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat iusto ipsam, facilis incidunt doloribus
+                soluta amet repellendus dolorum aperiam! Architecto molestias quis praesentium. Soluta error dolorum
+                reiciendis possimus facere repellendus.</p>
+
+            <p class="externo">Estou aprendendo CSS e deixando meu site mais bonito!</p>
+
+        </section>
+        <!--Você foi contratado para melhorar a aparência de uma página simples sobre tecnologia.
+    Seu objetivo é aplicar CSS de 3 formas diferentes para deixar o site mais organizado e bonito.-->
+    </main>
+    <footer>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
